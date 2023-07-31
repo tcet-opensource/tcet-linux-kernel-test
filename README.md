@@ -8,5 +8,5 @@ performance testing for kernel (tcet-linux)
 > you can install the zst file using the following command:-
 
 ```bash
-sudo pacman -U *ZSTFILE* 
+sudo pacman -U PackageName.pkg.tar.zst 
 ```
