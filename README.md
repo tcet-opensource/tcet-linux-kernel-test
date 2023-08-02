@@ -7,6 +7,15 @@ performance testing for kernel (tcet-linux)
 
 > you can install the zst file using the following command:-
 
+How to clone the repository ?
+
+1) get  git-lfs with `sudo pacman -S git-lfs`
+2) run  `git lfs install`
+3) git lfs clone `repo url`
+
+
+Package installation:
 ```bash
 sudo pacman -U PackageName.pkg.tar.zst 
 ```
+
