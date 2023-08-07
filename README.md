@@ -15,7 +15,13 @@ How to clone the repository ?
 
 
 Package installation:
+
 ```bash
 sudo pacman -U PackageName.pkg.tar.zst 
 ```
 
+make new grub config (add options to grub menu):
+
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
